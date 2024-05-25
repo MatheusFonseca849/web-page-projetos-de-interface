@@ -1,0 +1,25 @@
+:root{
+
+    --font-size-default: 1rem; /* 16px */
+    --font-size-0: 1.75rem; /* 28px */
+    --font-size-1: 1.375rem; /* 22px */
+    --font-size-2: 1.125rem; /* 18px */
+
+    --font-weight-0: 700;
+    --font-weight-1: 600;
+    --font-weight-2: 400;
+
+    --padding-page-default: 18px 20px;
+
+    --color-header:  #324B4B;
+    --color-fixed-white:  #FCFCFC;
+    --color-fixed-black: #181818;
+    --color-background-aside:  #005C66;
+    --color-background-footer: #A4B1F6;
+    --color-background-li: #00B287;
+    --color-background-li-hover: #23735E;
+
+    --gap-default: 12px;
+    --gap-aside-div: 6px;
+    --radius-default: 6px;
+}
