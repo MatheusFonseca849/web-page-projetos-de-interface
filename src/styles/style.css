@@ -1,6 +1,20 @@
 header{
     background-color: var(--color-header);
     padding: var(--padding-page-default);
+    display: flex;
+    justify-content: space-between;
+}
+
+header button{
+    padding: 8px;
+    border-radius: var(--radius-default);
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-header-btn);
+    color: var(--color-grey-900);
 }
 
 header h1{
@@ -58,8 +72,9 @@ section article{
     display: flex;
     flex-direction: column;
     gap: var(--gap-default);
-    background-color: #f0ffff;
+    background-color: var(--color-background-article);
     border-radius: var(--radius-default);
+    color: var(--color-grey-100);
 }
 
 section article h2 {
@@ -76,7 +91,7 @@ section aside{
     display: flex;
     flex-direction: column;
     gap: var(--gap-default);
-    background-color: #005C66;
+    background-color: var(--color-background-aside);
     color: var(--color-fixed-white);
     border-radius: var(--radius-default);
 }
@@ -113,6 +128,8 @@ footer span{
 
     header{
         display: flex;
+        flex-direction: column;
+        gap: 8px;
         justify-content: center;
         align-items: center;
     }

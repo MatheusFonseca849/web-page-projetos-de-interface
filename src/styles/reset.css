@@ -34,8 +34,8 @@ section {
 }
 
 body {
-	background: rgb(255, 183, 26);
-	background: linear-gradient(150deg, rgba(255, 183, 26, 1) 9%, rgba(58, 199, 200, 1) 25%, rgba(58, 199, 200, 1) 74%, rgba(90, 221, 96, 1) 96%);
+	background: var(--background);
+	background: var(--linear-gradient);
 	background-repeat: no-repeat;
 	font-family: "IBM Plex Sans", sans-serif;
 	width: 100dvw;
