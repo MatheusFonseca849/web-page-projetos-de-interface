@@ -38,7 +38,6 @@ body {
 	background: var(--linear-gradient);
 	background-repeat: no-repeat;
 	font-family: "IBM Plex Sans", sans-serif;
-	width: 100dvw;
 	height: 100dvh;
 	color: var(--color-fixed-black);
 }
