@@ -1,21 +1,38 @@
-html,body,header,section,select,main,nav,div,ul,li,input,img,button,figure,h1,h2,h3,a,p{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 1rem;
-    text-decoration: none;
-    color: inherit;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-align: unset;
-    scroll-behavior: smooth;
-    
-  }
+html,
+body,
+header,
+section,
+select,
+main,
+nav,
+div,
+ul,
+li,
+input,
+img,
+button,
+figure,
+h1,
+h2,
+h3,
+a,
+p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-align: unset;
+  scroll-behavior: smooth;
+}
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -30,37 +47,37 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 
 body {
-	background: var(--background);
-	background: var(--linear-gradient);
-	background-repeat: no-repeat;
-	font-family: "IBM Plex Sans", sans-serif;
-	height: 100dvh;
-	color: var(--color-fixed-black);
+  background: var(--background);
+  background: var(--linear-gradient);
+  background-repeat: no-repeat;
+  font-family: "IBM Plex Sans", sans-serif;
+  height: 100dvh;
+  color: var(--color-fixed-black);
 }
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
